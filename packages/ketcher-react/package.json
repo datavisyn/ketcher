@@ -1,6 +1,6 @@
 {
   "name": "ketcher-react",
-  "version": "3.12.0",
+  "version": "3.12.0-mh-v12-patch.0",
   "description": "Web-based molecule sketcher",
   "license": "Apache-2.0",
   "homepage": "http://lifescience.opensource.epam.com/ketcher",
@@ -42,6 +42,7 @@
     "stylelint:fix": "stylelint \"./**/*.{css,less}\" --formatter verbose --fix"
   },
   "peerDependencies": {
+    "ketcher-core": "3.12.0-mh-v12-patch.0",
     "react": "^18.2.0 || ^19.0.0",
     "react-dom": "^18.2.0 || ^19.0.0"
   },
@@ -60,7 +61,6 @@
     "font-face-observer": "^1.0.0",
     "hoist-non-react-statics": "^3.3.2",
     "intersection-observer": "^0.12.2",
-    "ketcher-core": "*",
     "lodash": "^4.17.21",
     "miew-react": "0.11.0",
     "react-colorful": "^5.4.0",
